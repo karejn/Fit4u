@@ -1,0 +1,78 @@
+<resources>
+
+    <string name="packageName">fit4u.udacity.com.fit4u</string>
+    <string name="app_name">Fit4u</string>
+    <string name="main">Sets</string>
+    <string name="set">Personal Sets</string>
+    <string name="info">Info</string>
+    <string name="action_logout">Logout</string>
+    <string name="google">Google</string>
+
+    <!-- Registration -->
+    <string name="lable_register">REGISTER</string>
+    <string name="text_email">Email</string>
+    <string name="text_pass">Password</string>
+    <string name="text_confirmpass">Confirm Password</string>
+    <string name="btn_register">Register</string>
+    <string name="already_member">Already a member? Login Here</string>
+    <!-- Login -->
+    <string name="text_email_login">Email</string>
+    <string name="text_pass_login">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="new_member">New Member? Signup </string>
+
+    <string name="facebook_app_id">259563184818834</string>
+    <string name="fb_login_protocol_scheme">fb259563184818834</string>
+    <string name="sets_name">SET</string>
+    <string name="set_poster_desc">Set Image</string>
+    <string name="exercise_name">Exercise</string>
+
+    <string name="new_set">Create New Set</string>
+    <string name="delete">DELETE</string>
+
+    <string name="add_info">All exercises descriptions and pictures are provided by www.bodybuilding.com. Special thanks to Fitness Gods Facebook group.</string>
+
+    <string name="longClick">Long click on any item for delete</string>
+    <string name="swipefordelete">Swipe any item to delete</string>
+
+    <string name="customSetSelect">Select custom set from your list</string>
+    <string name="customSetRecycler">Custom Sets</string>
+    <string name="fit4uLogo">Logo</string>
+    <string name="backgroundImage">Background Image</string>
+    <string name="AddInfo">All exercises descriptions and pictures are provided by www.bodybuilding.com. Special thanks to Fitness Gods Facebook group.</string>
+    <string name="swipeDescription">Swipe any item to delete</string>
+    <string name="favorite">Add to favorite button</string>
+    <string name="share_using">Share using…</string>
+    <string name="no_app_available_to_share_content">No app available to share content !</string>
+    <string name="no_video_default_image">Default Image</string>
+    <string name="text_steps">Steps</string>
+
+    <string name="empty">Fields are empty.</string>
+    <string name="login_problem">Problem with Login.</string>
+    <string name="authenticating">Authenticating..</string>
+    <string name="registering">Registering, Please Wait …</string>
+    <string name="RegistrationSuccessful">Registration Successful.</string>
+    <string name="incorrectInputs">One of your inputs is incorrect.</string>
+
+    <string name="exercise">Exercise</string>
+    <string name="customName">Set Custom Name</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="customNameEmpty">Custom name should not be empty!</string>
+    <string name="loaderNotImplemented">Loader Not Implemented: </string>
+    <string name="unknownUri">Unknown uri: </string>
+    <string name="removeFromSets"> removed from workouts!</string>
+    <string name="undo">Undo</string>
+    <string name="uriCannotBeNull">URI cannot be null</string>
+    <string name="exerciseAdded">Exercise has been added to folder </string>
+    <string name="exerciseAlreadyAdded">Exercise already added to  </string>
+    <string name="folder"> folder</string>
+    <string name="selectCustomSet">Select Custom Set</string>
+    <string name="noAvailableIntent">No Intent available to handle the action</string>
+    <string name="areYouSureToRemoveSet">Are you sure that you want to remove this set?</string>
+    <string name="selectSet">Select a new Custom Set</string>
+    <string name="pleaseAddCustom">Please add a custom set to mark a favorite</string>
+
+</resources>

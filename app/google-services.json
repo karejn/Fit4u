@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "593728743793",
+    "firebase_url": "https://fitnessgods-b210d.firebaseio.com",
+    "project_id": "fitnessgods-b210d",
+    "storage_bucket": "fitnessgods-b210d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593728743793:android:6c2c5ddceccf74ba",
+        "android_client_info": {
+          "package_name": "fit4u.udacity.com.fit4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593728743793-t2rvvp3r2be03boung4quk6rf6sktvls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fit4u.udacity.com.fit4u",
+            "certificate_hash": "56c1ed914f828552718ab38371df823b08bc778d"
+          }
+        },
+        {
+          "client_id": "593728743793-1qiuhvobkpr7923u9vnlnu5qk65roa0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnuGxhaA1M-daAX3ai96bpYeF9AsWNnBs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593728743793-1qiuhvobkpr7923u9vnlnu5qk65roa0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
