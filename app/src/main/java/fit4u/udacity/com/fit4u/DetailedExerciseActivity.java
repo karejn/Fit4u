@@ -77,11 +77,7 @@ public class DetailedExerciseActivity extends AppCompatActivity implements
                     mBuilder.setMultiChoiceItems(listWorkouts, checkedWorkouts, new DialogInterface.OnMultiChoiceClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which, boolean isChecked) {
-                            if (isChecked) {
-                                checkedWorkouts[which] = true;
-                            } else {
-                                checkedWorkouts[which] = false;
-                            }
+                            checkedWorkouts[which] = isChecked;
                         }
                     });
                     mBuilder.setCancelable(true);

@@ -49,9 +49,6 @@ public class CustomListFragment extends DialogFragment implements
             WorkoutsContract.NewWorkoutEntry.COLUMN_NEW_WORKOUT_NAME
     };
 
-    public CustomListFragment() {
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
