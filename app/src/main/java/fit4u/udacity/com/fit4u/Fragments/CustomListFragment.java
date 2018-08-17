@@ -1,5 +1,6 @@
 package fit4u.udacity.com.fit4u.Fragments;
 
+import android.app.Dialog;
 import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.DialogInterface;
@@ -11,6 +12,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
@@ -32,7 +34,7 @@ import fit4u.udacity.com.fit4u.NewWorkoutsAdapter;
 import fit4u.udacity.com.fit4u.R;
 import fit4u.udacity.com.fit4u.data.WorkoutsContract;
 
-public class CustomListFragment extends Fragment implements
+public class CustomListFragment extends DialogFragment implements
         LoaderManager.LoaderCallbacks<Cursor>,
         NewWorkoutsAdapter.NewWorkoutAdapterOnClickHandler {
     private String m_Text = "";
@@ -53,6 +55,7 @@ public class CustomListFragment extends Fragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRetainInstance(true);
     }
 
     @Override
@@ -127,6 +130,16 @@ public class CustomListFragment extends Fragment implements
     @Override
     public void onResume() {
         super.onResume();
+    }
+
+    @Override
+    public void onDestroyView() {
+        Dialog dialog = getDialog();
+        // handles https://code.google.com/p/android/issues/detail?id=17423
+        if (dialog != null && getRetainInstance()) {
+            dialog.setDismissMessage(null);
+        }
+        super.onDestroyView();
     }
 
     @NonNull
