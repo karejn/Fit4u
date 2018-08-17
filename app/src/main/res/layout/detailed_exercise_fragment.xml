@@ -31,7 +31,7 @@
 
                 <ImageView
                     android:id="@+id/no_video_img"
-                    android:layout_width="380dp"
+                    android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:contentDescription="@string/no_video_default_image"
                     android:scaleType="centerCrop"
